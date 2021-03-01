@@ -1,0 +1,21 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  border-radius: 20px;
+  box-shadow: grey 0.2rem 0.2rem 10px;
+}
+
+.card > div {
+  font-weight: bold;
+  background: #ffcb05;
+  border-radius: 0 0 20px 20px;
+  color: #3d7dca;
+  font-family: 'Roboto', sans-serif;
+}
