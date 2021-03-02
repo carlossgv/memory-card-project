@@ -1,0 +1,10 @@
+.App {
+  background-image: url('https://image.freepik.com/free-vector/abstract-light-blue-comic-cartoon-style-halftone-background_111016-1171.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import CardsList from './components/CardsList';
+import Footer from './components/Footer';
 import Scoreboard from './components/Scoreboard';
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
     if (typeof id === 'string') {
       if (newClickedCards.includes(id)) {
         setClickedCards([]);
-        alert(`Game Finished! Points in this run: ${score}`);
+        alert(
+          `Game Finished! Points in this run: ${score}. Personal record: ${maxScore}`
+        );
         setScore(0);
       } else {
         newClickedCards.push(id);
@@ -32,6 +35,7 @@ function App() {
     <div className="App">
       <Scoreboard score={score} maxScore={maxScore} />
       <CardsList amount="6" handleClick={handleGame} />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import _ from 'lodash';
 import Card from './Card';
+import './CardsList.css'
 
 const CardsList = (props) => {
   const [cardsList, setCardsList] = useState([]);

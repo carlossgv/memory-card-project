@@ -1,0 +1,21 @@
+.scoreBoard {
+  padding: 1rem;
+  text-align: center;
+  background: #ffcb05;
+  color: #3d7dca;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.title > h1 {
+  align-self: center;
+  margin-left: 0.5rem;
+}
+
+.scoreBoard > p {
+  margin-top: 0.5rem;
+}
