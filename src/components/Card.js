@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import _ from 'lodash';
 import './Card.css';
+import cardBackground from '../static/img/cardBackground.jpg';
 
 const Card = (props) => {
   const [pokemon, setPokemon] = useState(null);
@@ -18,7 +19,9 @@ const Card = (props) => {
   return (
     <div
       className="card"
-      style={{ backgroundImage: 'url(/static/img/card-background.jpg)' }}
+      style={{
+        backgroundImage: `url(${cardBackground})`,
+      }}
       onClick={props.handleClick}
       id={props.id}
     >

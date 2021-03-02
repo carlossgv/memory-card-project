@@ -3,6 +3,7 @@ import './App.css';
 import CardsList from './components/CardsList';
 import Footer from './components/Footer';
 import Scoreboard from './components/Scoreboard';
+import appBackground from './static/img/appBackground.jpg';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -32,7 +33,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${appBackground})` }}>
       <Scoreboard score={score} maxScore={maxScore} />
       <CardsList amount="6" handleClick={handleGame} />
       <Footer />

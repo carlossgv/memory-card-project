@@ -1,15 +1,12 @@
 import React from 'react';
 import './Scoreboard.css';
+import pokemonLogo from '../static/img/pokemonLogo.png';
 
 const Scoreboard = (props) => {
   return (
     <div className="scoreBoard">
       <div className="title">
-        <img
-          height="80px"
-          alt="Pokemon Logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png"
-        ></img>{' '}
+        <img height="80px" alt="Pokemon Logo" src={pokemonLogo}></img>{' '}
         <h1>Memory Game!</h1>
       </div>
       <h3>Points in this run: {props.score}</h3>
