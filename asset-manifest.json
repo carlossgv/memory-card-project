@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/memory-card-project/static/css/main.b649c940.chunk.css",
-    "main.js": "/memory-card-project/static/js/main.05f234cc.chunk.js",
-    "main.js.map": "/memory-card-project/static/js/main.05f234cc.chunk.js.map",
+    "main.css": "/memory-card-project/static/css/main.63c88df5.chunk.css",
+    "main.js": "/memory-card-project/static/js/main.9f59fcff.chunk.js",
+    "main.js.map": "/memory-card-project/static/js/main.9f59fcff.chunk.js.map",
     "runtime-main.js": "/memory-card-project/static/js/runtime-main.a07f066a.js",
     "runtime-main.js.map": "/memory-card-project/static/js/runtime-main.a07f066a.js.map",
     "static/js/2.424c524c.chunk.js": "/memory-card-project/static/js/2.424c524c.chunk.js",
     "static/js/2.424c524c.chunk.js.map": "/memory-card-project/static/js/2.424c524c.chunk.js.map",
     "index.html": "/memory-card-project/index.html",
-    "static/css/main.b649c940.chunk.css.map": "/memory-card-project/static/css/main.b649c940.chunk.css.map",
-    "static/js/2.424c524c.chunk.js.LICENSE.txt": "/memory-card-project/static/js/2.424c524c.chunk.js.LICENSE.txt"
+    "static/css/main.63c88df5.chunk.css.map": "/memory-card-project/static/css/main.63c88df5.chunk.css.map",
+    "static/js/2.424c524c.chunk.js.LICENSE.txt": "/memory-card-project/static/js/2.424c524c.chunk.js.LICENSE.txt",
+    "static/media/appBackground.055c0373.jpg": "/memory-card-project/static/media/appBackground.055c0373.jpg",
+    "static/media/cardBackground.42a1fd83.jpg": "/memory-card-project/static/media/cardBackground.42a1fd83.jpg",
+    "static/media/pokemonLogo.6e223bd2.png": "/memory-card-project/static/media/pokemonLogo.6e223bd2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a07f066a.js",
     "static/js/2.424c524c.chunk.js",
-    "static/css/main.b649c940.chunk.css",
-    "static/js/main.05f234cc.chunk.js"
+    "static/css/main.63c88df5.chunk.css",
+    "static/js/main.9f59fcff.chunk.js"
   ]
 }
