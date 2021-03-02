@@ -10,6 +10,11 @@
   background-size: 300px 300px;
   border-radius: 20px;
   box-shadow: grey 0.2rem 0.2rem 10px;
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.95);
 }
 
 .card > div {

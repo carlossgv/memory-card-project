@@ -19,11 +19,12 @@ const Card = (props) => {
     <div
       className="card"
       style={{ backgroundImage: 'url(/static/img/card-background.jpg)' }}
+      onClick={props.handleClick}
+      id={props.id}
     >
       <img
         src={
-          pokemon?.sprites.front_default ||
-          './static/img/Original_loading_screen.png'
+          pokemon?.sprites.front_default || './static/img/card-background.jpg'
         }
         alt={pokemon?.name || 'Loading'}
         width="300px"
