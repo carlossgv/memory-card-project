@@ -12,7 +12,7 @@ const Scoreboard = (props) => {
       <h3>Points in this run: {props.score}</h3>
       <h3>Personal record: {props.maxScore}</h3>
       <p>
-        <strong>How to play:</strong> Select a card a remember it! As long as
+        <strong>How to play:</strong> Select a card and remember it! As long as
         you keep selecting non-repeating cards you'll score points.
       </p>
     </div>
